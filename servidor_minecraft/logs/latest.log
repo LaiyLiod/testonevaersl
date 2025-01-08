@@ -1,129 +1,408 @@
-[16:53:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:53:56] [ServerMain/INFO]: Loaded 7 recipes
-[16:53:56] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:53:56] [Server thread/INFO]: Loading properties
-[16:53:57] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[16:53:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:53:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:53:57] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:33:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:33:51] [ServerMain/INFO]: Loaded 7 recipes
+[18:33:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:33:51] [Server thread/INFO]: Loading properties
+[18:33:51] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:33:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:33:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:33:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:53:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:53:58] [Server thread/INFO]: Default game type: SURVIVAL
-[16:53:58] [Server thread/INFO]: Generating keypair
-[16:53:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:53:58] [Server thread/INFO]: Using epoll channel type
-[16:53:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:53:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:54:00] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[16:54:01] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[16:54:01] [Server thread/INFO]: [floodgate] Took 964ms to boot Floodgate
-[16:54:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[16:54:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[16:54:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:54:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:54:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:54:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:54:02] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[16:54:03] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[16:54:03] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[16:54:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[16:54:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:54:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:54:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:54:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:54:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:54:03] [Server thread/INFO]: Preparing level "world"
-[16:54:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:54:04] [Server thread/INFO]: Time elapsed: 293 ms
-[16:54:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:54:04] [Server thread/INFO]: Time elapsed: 132 ms
-[16:54:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:54:04] [Server thread/INFO]: Time elapsed: 73 ms
-[16:54:04] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[16:54:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[16:54:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[16:54:05] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[16:54:05] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[16:54:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[16:54:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[16:54:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:54:06] [Server thread/INFO]: [Geyser-Spigot] 
-[16:54:06] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b742 (git-master-ddd1afa)
-[16:54:06] [Server thread/INFO]: [Geyser-Spigot] 
-[16:54:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:54:12] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1821
-[16:54:12] [Server thread/INFO]: [Geyser-Spigot] Done (5.882s)! Run /geyser help for help!
-[16:54:12] [Server thread/INFO]: Running delayed init tasks
-[16:54:12] [Server thread/INFO]: Done (15.282s)! For help, type "help"
-[16:54:12] [Server thread/INFO]: Timings Reset
-[16:54:12] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:54:56] [User Authenticator #0/INFO]: UUID of player LaiyLiod is 6021c5ec-d1c8-30f4-bcbb-ba21b22f60d7
-[16:54:56] [Server thread/INFO]: LaiyLiod joined the game
-[16:54:56] [Server thread/INFO]: LaiyLiod[/127.180.52.69:56539] logged in with entity id 218 at ([world]26.990295868063956, 73.0, -1.670888620307425)
-[16:57:02] [Server thread/INFO]: LaiyLiod issued server command: /tp @a 0 75 0
-[16:57:02] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to 0.500000, 75.000000, 0.500000]
-[17:00:52] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username TheLetterP5726
-[17:00:52] [localSession-7-2/INFO]: [Geyser-Spigot] TheLetterP5726 (logged in as: TheLetterP5726) has connected to the Java server
-[17:00:52] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .TheLetterP5726 is 00000000-0000-0000-0009-01f98d1b1029
-[17:00:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TheLetterP5726 joined (UUID: 00000000-0000-0000-0009-01f98d1b1029)
-[17:00:52] [Server thread/INFO]: .TheLetterP5726 joined the game
-[17:00:52] [Server thread/INFO]: .TheLetterP5726[/127.0.0.1:0] logged in with entity id 1622 at ([world]23.5, 68.0, 25.5)
-[17:01:10] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative .TheLetterP5726
-[17:01:10] [Server thread/INFO]: [LaiyLiod: Set .TheLetterP5726's game mode to Creative Mode]
-[17:01:24] [Server thread/INFO]: Made .TheLetterP5726 a server operator
-[17:01:46] [Server thread/INFO]: LaiyLiod issued server command: /time set day
-[17:01:46] [Server thread/INFO]: [LaiyLiod: Set the time to 1000]
-[17:04:49] [Server thread/INFO]: LaiyLiod issued server command: /tp .TheLetterP5726
-[17:04:49] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to .TheLetterP5726]
-[17:05:11] [Server thread/INFO]: .TheLetterP5726 issued server command: /gamemode survival
-[17:05:11] [Server thread/INFO]: [.TheLetterP5726: Set own game mode to Survival Mode]
-[17:05:25] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
-[17:05:25] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
-[17:05:32] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative
-[17:05:32] [Server thread/INFO]: [LaiyLiod: Set own game mode to Creative Mode]
-[17:05:35] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
-[17:05:35] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
-[17:06:07] [Server thread/INFO]: .TheLetterP5726 was slain by LaiyLiod
-[17:06:12] [Server thread/INFO]: LaiyLiod issued server command: /tp .TheLetterP5726
-[17:06:12] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to .TheLetterP5726]
-[17:06:29] [Server thread/INFO]: LaiyLiod lost connection: Disconnected
-[17:06:29] [Server thread/INFO]: LaiyLiod left the game
-[17:06:39] [localSession-7-2/INFO]: [Geyser-Spigot] TheLetterP5726 has disconnected from the Java server because of Bedrock client disconnected
-[17:06:39] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .TheLetterP5726 disconnected
-[17:06:39] [Server thread/INFO]: .TheLetterP5726 lost connection: Disconnected
-[17:06:39] [Server thread/INFO]: .TheLetterP5726 left the game
-[17:06:56] [Server thread/INFO]: Stopping the server
-[17:06:56] [Server thread/INFO]: Stopping server
-[17:06:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:06:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[17:06:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[17:06:56] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[17:06:56] [Server thread/INFO]: Saving players
-[17:06:57] [Server thread/INFO]: Saving worlds
-[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:06:57] [WebSocketConnectReadThread-68/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1203 block chunks, 317 entity chunks, 8 poi chunks in world 'world' in 0.78s
-[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:06:57] [Server thread/INFO]: Flushing Chunk IO
-[17:06:57] [Server thread/INFO]: Closing Thread Pool
-[17:06:57] [Server thread/INFO]: Closing Server
+[18:33:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:33:53] [Server thread/INFO]: Default game type: SURVIVAL
+[18:33:53] [Server thread/INFO]: Generating keypair
+[18:33:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:33:53] [Server thread/INFO]: Using epoll channel type
+[18:33:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:33:53] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[18:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/testonevaersl/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[18:33:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[18:33:54] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:33:54] [Server thread/INFO]: [floodgate] Took 525ms to boot Floodgate
+[18:33:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[18:33:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[18:33:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:33:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:33:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:33:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:33:55] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[18:33:55] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[18:33:55] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[18:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[18:33:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:33:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:33:55] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[18:33:55] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR3.1.11
+[18:33:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:33:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:33:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:33:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:33:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:33:55] [Server thread/INFO]: Preparing level "world"
+[18:33:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:33:56] [Server thread/INFO]: Time elapsed: 206 ms
+[18:33:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:33:56] [Server thread/INFO]: Time elapsed: 82 ms
+[18:33:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:33:56] [Server thread/INFO]: Time elapsed: 120 ms
+[18:33:56] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[18:33:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[18:33:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[18:33:57] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[18:33:57] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[18:33:57] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[18:33:57] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.1)...
+[18:33:57] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[18:33:59] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/testonevaersl/servidor_minecraft/plugins/MythicMobs/data
+[18:33:59] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/testonevaersl/servidor_minecraft/plugins/MythicMobs/data/worlds
+[18:34:01] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[18:34:01] [Server thread/INFO]: [MythicMobs] Loading Items...
+[18:34:01] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[18:34:01] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[18:34:02] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[18:34:02] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[18:34:02] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 21 mobs.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 186 skills.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[18:34:02] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[18:34:02] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[18:34:02] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs Premium v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded!
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[18:34:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[18:34:02] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR3.1.11
+[18:34:02] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[18:34:02] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[18:34:02] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: ViaVersion
+[18:34:02] [Server thread/INFO]: [ModelEngine] [S] bStats enabled
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] 
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b742 (git-master-ddd1afa)
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] 
+[18:34:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:34:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1821
+[18:34:05] [Server thread/INFO]: [Geyser-Spigot] Done (2.282s)! Run /geyser help for help!
+[18:34:05] [Server thread/INFO]: Running delayed init tasks
+[18:34:05] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine.bbmodel.
+[18:34:05] [Server thread/INFO]: Done (13.366s)! For help, type "help"
+[18:34:05] [Server thread/INFO]: Timings Reset
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex_bits.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_axe.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bits.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bobber.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_steve.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie_bits.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing lr_healthbar.bbmodel.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Generating assets]
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex_bits.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_axe.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bits.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bobber.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_steve.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie_bits.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generating lr_healthbar.
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:34:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[18:34:58] [User Authenticator #0/INFO]: UUID of player LaiyLiod is 6021c5ec-d1c8-30f4-bcbb-ba21b22f60d7
+[18:34:58] [Server thread/INFO]: LaiyLiod joined the game
+[18:34:58] [Server thread/INFO]: LaiyLiod[/127.180.52.69:41781] logged in with entity id 219 at ([world]26.69999998807907, 73.0, 7.904323412502481)
+[18:35:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username TheLetterP5726
+[18:35:15] [localSession-7-2/INFO]: [Geyser-Spigot] TheLetterP5726 (logged in as: TheLetterP5726) has connected to the Java server
+[18:35:15] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .TheLetterP5726 is 00000000-0000-0000-0009-01f98d1b1029
+[18:35:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TheLetterP5726 joined (UUID: 00000000-0000-0000-0009-01f98d1b1029)
+[18:35:15] [Server thread/INFO]: .TheLetterP5726 joined the game
+[18:35:15] [Server thread/INFO]: .TheLetterP5726[/127.0.0.1:0] logged in with entity id 263 at ([world]3.283605, 61.84176014466017, 19.979225)
+[18:35:24] [Server thread/INFO]: LaiyLiod issued server command: /me reload modelsss
+[18:35:24] [Server thread/INFO]: [Not Secure] * LaiyLiod reload modelsss
+[18:35:28] [Server thread/INFO]: LaiyLiod issued server command: /me reload models
+[18:35:28] [Server thread/INFO]: [Not Secure] * LaiyLiod reload models
+[18:35:30] [Server thread/INFO]: .TheLetterP5726 issued server command: /gamemode creative
+[18:35:30] [Server thread/INFO]: [.TheLetterP5726: Set own game mode to Creative Mode]
+[18:35:33] [Server thread/INFO]: LaiyLiod issued server command: /meg reload models
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex_bits.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_axe.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bits.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bobber.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_steve.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie_bits.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing lr_healthbar.bbmodel.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] [Generating assets]
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex_bits.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_axe.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bits.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bobber.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_steve.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie_bits.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating lr_healthbar.
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:35:33] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[18:35:45] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative
+[18:35:45] [Server thread/INFO]: [LaiyLiod: Set own game mode to Creative Mode]
+[18:35:53] [Server thread/INFO]: LaiyLiod issued server command: /tp .TheLetterP5726
+[18:35:53] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to .TheLetterP5726]
+[18:35:55] [Server thread/INFO]: .TheLetterP5726 issued server command: /tp laiyliod
+[18:35:55] [Server thread/INFO]: [.TheLetterP5726: Teleported .TheLetterP5726 to LaiyLiod]
+[18:35:55] [Server thread/WARN]: .TheLetterP5726 moved too quickly! 0.11766713277877727,-28.50246,-1.6085707947738541
+[18:35:55] [Server thread/WARN]: .TheLetterP5726 moved too quickly! 0.11766713277877727,-28.50246,-1.6085707947738541
+[18:36:06] [Server thread/INFO]: LaiyLiod issued server command: /meg summon herobrine
+[18:36:27] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
+[18:36:27] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
+[18:36:40] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative
+[18:36:40] [Server thread/INFO]: [LaiyLiod: Set own game mode to Creative Mode]
+[18:36:52] [Server thread/INFO]: LaiyLiod issued server command: /meg summon herobrine_alex
+[18:36:59] [Server thread/INFO]: LaiyLiod issued server command: /meg summon herobrine_axe
+[18:37:01] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/627, uuid='da63928c-e8bf-40df-afa9-74e789984c71', l='ServerLevel[world]', x=90.50, y=-1.00, z=-54.50, cpos=[5, -4], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[18:37:16] [Server thread/INFO]: LaiyLiod issued server command: /meg summon lr_healthbar
+[18:37:58] [Server thread/INFO]: LaiyLiod issued server command: /meg summon herobrine_bobber
+[18:38:44] [Server thread/INFO]: LaiyLiod issued server command: /modelengine:meg reload
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_alex_bits.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_axe.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bits.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_bobber.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_steve.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing herobrine_zombie_bits.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Importing lr_healthbar.bbmodel.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] [Generating assets]
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_alex_bits.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_axe.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bits.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_bobber.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_steve.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating herobrine_zombie_bits.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generating lr_healthbar.
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
+[18:38:44] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[18:39:10] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn AngrySludge
+[18:39:17] [Server thread/INFO]: .TheLetterP5726 issued server command: /time set day
+[18:39:17] [Server thread/INFO]: [.TheLetterP5726: Set the time to 1000]
+[18:40:02] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine
+[18:40:10] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
+[18:40:10] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
+[18:40:12] [Server thread/INFO]: LaiyLiod was slain by HEROBRINE
+[18:40:16] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative
+[18:40:16] [Server thread/INFO]: [LaiyLiod: Set own game mode to Creative Mode]
+[18:40:54] [Server thread/INFO]: .TheLetterP5726 issued server command: /kill @e
+[18:40:54] [Server thread/INFO]: .TheLetterP5726 was killed
+[18:40:54] [Server thread/INFO]: Named entity EntityIronGolem['HEROBRINE'/1147, uuid='e53c247f-6d91-4b48-9f6a-50b6371797e6', l='ServerLevel[world]', x=99.48, y=70.00, z=-26.40, cpos=[6, -2], tl=1023, v=true] died: HEROBRINE was killed
+[18:40:54] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/1128, uuid='fde013c4-0d55-4225-a445-00419581f46d', l='ServerLevel[world]', x=124.50, y=-27.00, z=-56.50, cpos=[7, -4], tl=1251, v=true] died: Skeletal Knight was killed
+[18:40:54] [Server thread/INFO]: LaiyLiod was killed
+[18:40:54] [Server thread/INFO]: .TheLetterP5726 has made the advancement [Monster Hunter]
+[18:40:54] [Server thread/INFO]: Named entity EntitySlime['Angry Sludge'/1012, uuid='39cefa74-f494-4831-b3c8-1444e2edb3e1', l='ServerLevel[world]', x=95.18, y=73.00, z=-20.74, cpos=[5, -2], tl=2073, v=true] died: Angry Sludge was killed whilst fighting .TheLetterP5726
+[18:40:54] [Server thread/INFO]: [.TheLetterP5726: Killed 245 entities]
+[18:41:07] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn StaticallyChargedSheep
+[18:41:22] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn SkeletonKing
+[18:41:48] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1828, uuid='e5d9d295-e42a-41b5-b44b-012753b4fb72', l='ServerLevel[world]', x=52.73, y=72.00, z=-14.72, cpos=[3, -1], tl=172, v=true] died: Skeletal Minion burned to death
+[18:41:48] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1829, uuid='36629677-44f3-479c-9257-ac681eafb0df', l='ServerLevel[world]', x=52.25, y=72.00, z=-10.75, cpos=[3, -1], tl=178, v=true] died: Skeletal Minion burned to death
+[18:41:50] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1834, uuid='d689543e-5cf3-4d4e-a83a-9ecc7ee56336', l='ServerLevel[world]', x=45.27, y=72.00, z=-12.23, cpos=[2, -1], tl=188, v=true] died: Skeletal Minion burned to death
+[18:41:50] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1835, uuid='1164bbca-d5d8-4edf-9cbc-841e061ac734', l='ServerLevel[world]', x=45.25, y=72.00, z=-8.27, cpos=[2, -1], tl=203, v=true] died: Skeletal Minion burned to death
+[18:41:51] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1837, uuid='677688ac-d97b-426c-b8ca-b2880c5e8ac2', l='ServerLevel[world]', x=41.27, y=72.00, z=-6.50, cpos=[2, -1], tl=186, v=true] died: Skeletal Minion burned to death
+[18:41:51] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1838, uuid='80397c40-0886-4e0c-be6d-a17921f70de8', l='ServerLevel[world]', x=50.47, y=72.00, z=-10.44, cpos=[3, -1], tl=194, v=true] died: Skeletal Minion burned to death
+[18:42:04] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine_alex
+[18:42:13] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1943, uuid='35c2d342-54cb-4f25-932e-233289ab0a02', l='ServerLevel[world]', x=42.93, y=73.00, z=-2.30, cpos=[2, -1], tl=83, v=true] died: Skeletal Minion was slain by ALEX
+[18:42:16] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1933, uuid='45d08c98-4501-4bd5-bb5d-a7e75876047c', l='ServerLevel[world]', x=51.08, y=72.00, z=-8.67, cpos=[3, -1], tl=167, v=true] died: Skeletal Minion burned to death
+[18:42:17] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1944, uuid='b0c53c27-c6a3-4d62-8c1b-8344b7d5b9b4', l='ServerLevel[world]', x=41.30, y=72.00, z=-10.42, cpos=[2, -1], tl=153, v=true] died: Skeletal Minion burned to death
+[18:42:17] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1932, uuid='61f9e1e1-9df8-4b4b-99ec-a68195264cda', l='ServerLevel[world]', x=42.57, y=76.00, z=4.53, cpos=[2, 0], tl=203, v=true] died: Skeletal Minion burned to death
+[18:42:17] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1937, uuid='e11bc7ef-a029-41a9-adfb-27541da8e109', l='ServerLevel[world]', x=50.62, y=73.00, z=-2.30, cpos=[3, -1], tl=184, v=true] died: Skeletal Minion burned to death
+[18:42:18] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/1936, uuid='83be06cc-fa78-428d-bc98-1e3ccd2242dc', l='ServerLevel[world]', x=49.32, y=74.00, z=-0.34, cpos=[3, -1], tl=187, v=true] died: Skeletal Minion burned to death
+[18:42:26] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2033, uuid='d8aa5ca3-85d4-4bf9-9cba-7b9cedb39fff', l='ServerLevel[world]', x=40.70, y=71.00, z=-2.30, cpos=[2, -1], tl=21, v=true] died: Skeletal Minion suffocated in a wall whilst fighting ALEX
+[18:42:32] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2041, uuid='cb536b7b-c127-4fb3-8512-baa77e414be5', l='ServerLevel[world]', x=39.59, y=70.00, z=-5.41, cpos=[2, -1], tl=132, v=true] died: Skeletal Minion was burnt to a crisp whilst fighting Skeletal Minion
+[18:42:33] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2030, uuid='6801af10-aa21-45cd-a385-16b1d1d901cf', l='ServerLevel[world]', x=46.18, y=72.00, z=-8.96, cpos=[2, -1], tl=185, v=true] died: Skeletal Minion burned to death
+[18:42:33] [Server thread/INFO]: Named entity EntityIronGolem['ALEX'/1895, uuid='4f5865cf-3004-4cda-8886-da5a3e81ed94', l='ServerLevel[world]', x=33.68, y=66.00, z=-5.59, cpos=[2, -1], tl=578, v=true] died: ALEX was slain by Skeleton King using [Greatsword of the Skeleton King]
+[18:42:34] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2042, uuid='66c28823-ae15-48cf-b2ad-5e0b98416b51', l='ServerLevel[world]', x=39.12, y=71.00, z=-5.98, cpos=[2, -1], tl=168, v=true] died: Skeletal Minion burned to death
+[18:42:34] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2032, uuid='79fc00cb-8d1d-4985-a8c1-1804b655cadd', l='ServerLevel[world]', x=37.86, y=73.00, z=-6.31, cpos=[2, -1], tl=194, v=true] died: Skeletal Minion burned to death
+[18:42:35] [Server thread/INFO]: Named entity EntitySkeleton['Skeletal Minion'/2031, uuid='35f41473-91bf-4ba7-99cd-de77c019cea3', l='ServerLevel[world]', x=38.56, y=70.00, z=-6.58, cpos=[2, -1], tl=220, v=true] died: Skeletal Minion burned to death
+[18:42:48] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn SkeletalKnight
+[18:42:59] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine_fireworkFX
+[18:43:05] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine_fireworkFX
+[18:43:08] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine_fireworkFX
+[18:43:16] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn herobrine_fireworkFX
+[18:43:47] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs mobs spawn WITHER_SKELETON
+[18:44:02] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs items give LaiyLiod BanditTunic
+[18:44:19] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs items give LaiyLiod KingsCrown
+[18:44:26] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs items give LaiyLiod SkeletonKingDrops
+[18:44:34] [Server thread/INFO]: LaiyLiod issued server command: /mythicmobs items give LaiyLiod SkeletonKingSword
+[18:44:52] [localSession-7-2/INFO]: [Geyser-Spigot] TheLetterP5726 has disconnected from the Java server because of Bedrock client disconnected
+[18:44:52] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .TheLetterP5726 disconnected
+[18:44:52] [Server thread/INFO]: .TheLetterP5726 lost connection: Disconnected
+[18:44:52] [Server thread/INFO]: .TheLetterP5726 left the game
+[18:44:58] [Server thread/INFO]: LaiyLiod lost connection: Disconnected
+[18:44:58] [Server thread/INFO]: LaiyLiod left the game
+[18:45:06] [Server thread/INFO]: Stopping the server
+[18:45:07] [Server thread/INFO]: Stopping server
+[18:45:07] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR3.1.11
+[18:45:07] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[18:45:07] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[18:45:07] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:45:07] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:45:07] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[18:45:07] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[18:45:07] [Server thread/INFO]: [MythicMobs] - 
+[18:45:07] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[18:45:07] [Server thread/INFO]: [MythicMobs] - 
+[18:45:07] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[18:45:07] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[18:45:07] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[18:45:07] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[18:45:07] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[18:45:07] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[18:45:07] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[18:45:07] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[18:45:07] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[18:45:07] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[18:45:07] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[18:45:07] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[18:45:07] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:45:07] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[18:45:07] [Server thread/INFO]: Saving players
+[18:45:07] [Server thread/INFO]: Saving worlds
+[18:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:45:07] [WebSocketConnectReadThread-74/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saved 275 block chunks, 173 entity chunks, 0 poi chunks in world 'world' in 0.21s
+[18:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 5 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:45:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:45:07] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[18:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:45:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:45:07] [Server thread/INFO]: Flushing Chunk IO
+[18:45:07] [Server thread/INFO]: Closing Thread Pool
+[18:45:07] [Server thread/INFO]: Closing Server
