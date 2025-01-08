@@ -74,3 +74,56 @@
 [17:01:24] [Server thread/INFO]: Made .TheLetterP5726 a server operator
 [17:01:46] [Server thread/INFO]: LaiyLiod issued server command: /time set day
 [17:01:46] [Server thread/INFO]: [LaiyLiod: Set the time to 1000]
+[17:04:49] [Server thread/INFO]: LaiyLiod issued server command: /tp .TheLetterP5726
+[17:04:49] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to .TheLetterP5726]
+[17:05:11] [Server thread/INFO]: .TheLetterP5726 issued server command: /gamemode survival
+[17:05:11] [Server thread/INFO]: [.TheLetterP5726: Set own game mode to Survival Mode]
+[17:05:25] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
+[17:05:25] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
+[17:05:32] [Server thread/INFO]: LaiyLiod issued server command: /gamemode creative
+[17:05:32] [Server thread/INFO]: [LaiyLiod: Set own game mode to Creative Mode]
+[17:05:35] [Server thread/INFO]: LaiyLiod issued server command: /gamemode survival
+[17:05:35] [Server thread/INFO]: [LaiyLiod: Set own game mode to Survival Mode]
+[17:06:07] [Server thread/INFO]: .TheLetterP5726 was slain by LaiyLiod
+[17:06:12] [Server thread/INFO]: LaiyLiod issued server command: /tp .TheLetterP5726
+[17:06:12] [Server thread/INFO]: [LaiyLiod: Teleported LaiyLiod to .TheLetterP5726]
+[17:06:29] [Server thread/INFO]: LaiyLiod lost connection: Disconnected
+[17:06:29] [Server thread/INFO]: LaiyLiod left the game
+[17:06:39] [localSession-7-2/INFO]: [Geyser-Spigot] TheLetterP5726 has disconnected from the Java server because of Bedrock client disconnected
+[17:06:39] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .TheLetterP5726 disconnected
+[17:06:39] [Server thread/INFO]: .TheLetterP5726 lost connection: Disconnected
+[17:06:39] [Server thread/INFO]: .TheLetterP5726 left the game
+[17:06:56] [Server thread/INFO]: Stopping the server
+[17:06:56] [Server thread/INFO]: Stopping server
+[17:06:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:06:56] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:06:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[17:06:56] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:06:56] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:06:56] [Server thread/INFO]: Saving players
+[17:06:57] [Server thread/INFO]: Saving worlds
+[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:06:57] [WebSocketConnectReadThread-68/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1203 block chunks, 317 entity chunks, 8 poi chunks in world 'world' in 0.78s
+[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:06:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:06:57] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:06:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:06:57] [Server thread/INFO]: Flushing Chunk IO
+[17:06:57] [Server thread/INFO]: Closing Thread Pool
+[17:06:57] [Server thread/INFO]: Closing Server
